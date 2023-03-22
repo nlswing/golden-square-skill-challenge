@@ -2,7 +2,7 @@ require "music_tracker"
 
 RSpec.describe MusicTracker do
   context "no tracks are added" do
-    xit "returns an empty array" do
+    it "returns an empty array" do
     music_tracker = MusicTracker.new
     expect(music_tracker.see_tracks).to eq []
     end
