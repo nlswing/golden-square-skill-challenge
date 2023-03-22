@@ -9,7 +9,7 @@ RSpec.describe MusicTracker do
   end
 
   context "a track is added" do
-    xit "returns the track in array" do
+    it "returns the track in array" do
     music_tracker = MusicTracker.new
     music_tracker.add("Creep")
     expect(music_tracker.see_tracks).to eq ["Creep"]
