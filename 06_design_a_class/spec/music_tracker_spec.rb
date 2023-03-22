@@ -26,7 +26,7 @@ RSpec.describe MusicTracker do
   end
 
   context "track is already in array" do
-    xit "fails" do
+    it "fails" do
     music_tracker = MusicTracker.new
     music_tracker.add("Creep")
     music_tracker.add("Just")
