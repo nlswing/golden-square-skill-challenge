@@ -17,7 +17,7 @@ RSpec.describe MusicTracker do
   end
 
   context "multiple tracks are added" do
-    xit "returns the tracks in an array" do
+    it "returns the tracks in an array" do
     music_tracker = MusicTracker.new
     music_tracker.add("Creep")
     music_tracker.add("Just")
