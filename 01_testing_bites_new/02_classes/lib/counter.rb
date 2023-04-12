@@ -1,5 +1,5 @@
 class Counter
-  # starts of with 0
+  # starts off with 0
   def initialize
     @count = 0
   end
